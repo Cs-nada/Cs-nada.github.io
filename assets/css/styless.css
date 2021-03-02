@@ -896,12 +896,13 @@ section {
   box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
+  background-color: #fff;
 }
 
 .counts .count-box i {
   display: block;
   font-size: 30px;
-  color: #3fbbc0;
+  color: #000;
   float: left;
 }
 
