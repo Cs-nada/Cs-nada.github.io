@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 *Donation Button
 */
 .donation-btn {
-  background: #943332;
+  background: #946848;
   color: #fff;
   border-radius: 15px;
   padding: 8px 25px;
@@ -822,7 +822,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #ed3c0d;
+  background: #a2a098;
   color: #fff;
   background-size: cover;
   padding: 60px 0;
