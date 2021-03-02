@@ -896,7 +896,7 @@ section {
   box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(126, 42, 42);
 }
 
 .counts .count-box i {
