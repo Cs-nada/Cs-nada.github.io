@@ -1735,7 +1735,23 @@ font-size: 12px;
     transform: rotate(360deg);
   }
 }
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
 
+.form-cato{
+  font-weight: bold;
+   font-size: 20px; 
+   color:#19521c;
+  padding-bottom: 12px;
+}
+.form-1-box { padding-top: 30px; text-align: left; }
+
+.form-1-box legend { font-size: inherit; line-height: 30px; font-weight: 600; text-transform: uppercase; color: #555; }
+
+.lable-custom{
+  text-align: center; font-family: Poppins-Bold; font-size: 16px; font-weight: 20px;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
