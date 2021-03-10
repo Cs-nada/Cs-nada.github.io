@@ -156,27 +156,68 @@
                 data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
 
             <div class="wrap-contact100">
-                <div class="contact100-form-title" style="background-image: url(assets/img/35.jpg);">
+                <div class="contact100-form-title" style="background-image: url(assets/img/34.png);">
                     <span class="contact100-form-title-1">
-                        طلب كفالة يتيم 
+                        التقديم على وظيفة
                     </span>
 
                     <span class="contact100-form-title-2">
-                        (قال رسول الله ﷺ: (أنا وكافل اليتيم في الجنة هكذا، وأشار بالسبابة والوسطى وفرج بينهما
-                        <br>
-                        لطلب كفالة يتيم أو يتيمة عليك تعبئة النموذج أدناه
+                        لتقديم على وظيفة عليك تعبئة النموذج أدناه
                     </span>
                 </div>
                 <form action="" method="post">
                     <fieldset class="form-group border p-3">
+                        <legend class="w-auto p-3 form-cato"> البيانات المطلوبة </legend>
+                        <hr>
+                        <div class="p-2">
+                            <h5 class="mb-2">على ان تتوفر به المواصفات التالية:</h5>
+                            <p>- القدرة على تحمل ضغط العمل.</p>
+                            <p>- الالمام والقدرة على التعامل مع الحاسب الآلي.</p>
+                            <p>- الالمام بالعمل على قنوات التواصل الاجتماعي. </p>
+                            <p>- فن التعامل مع العملاء . </p>
+                            <p>- حسن الخلق. </p>
+                        </div>
+                        <hr>
+                        <div class="p-2">
+                            <h5 class="mb-2">المرفقات المطلوبة :</h5>
+                            <p>•	آخر شهادة دراسية اكاديمية </p>
+                            <p>•	السيرة الذاتية </p>
+                            <p>•	شهادة خبرة  </p>
+                            <p>•	صورة الهوية  </p>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group border p-3">
                         <div class="form-group row mt-2 mb-3 p-2">
-                            <legend class="w-auto p-3 form-cato"> طلب كفالة </legend>
+                            <legend class="w-auto p-3 form-cato"> تقديم على وظيفة </legend>
                             <hr>
                             <div class="form-group mb-1 row">
-                                <label for="inputName" class="col-md-2 col-sm-2 col-form-label lable-custom">الاسم
-                                    الكافل</label>
+                                <label for="inputName"
+                                    class="col-md-2 col-sm-2 col-form-label lable-custom">الاسم</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputName" placeholder="الاسم الكافل">
+                                    <input type="text" class="form-control" id="inputName" placeholder="الاسم ">
+                                </div>
+                            </div>
+                            <div class="form-group mb-1 row">
+                                <label class="col-md-2 col-sm-2 col-form-label lable-custom text-justify" for="inputNationality">
+                                    الجنسية
+                                </label>
+                                <div class="col-sm-10">
+                                    <input class="form-control text-right" id="inputNationality" name="inputNationality" placeholder=""
+                                        type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group mb-1 row">
+                                <label for="inputCity" class="col-md-2 col-sm-2 col-form-label lable-custom">المدينة
+                                </label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputCity" placeholder="المدينة ">
+                                </div>
+                            </div>
+                            <div class="form-group mb-1 row">
+                                <label for="inputAddrese" class="col-md-2 col-sm-2 col-form-label lable-custom">العنوان
+                                </label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputAddrese" placeholder="العنوان ">
                                 </div>
                             </div>
                             <div class="form-group mb-1 row">
@@ -186,13 +227,6 @@
                                 <div class="col-sm-10">
                                     <input class="form-control text-right" id="tel" name="tel"
                                         placeholder="#966*********" type="tel" />
-                                </div>
-                            </div>
-                            <div class="form-group mb-1 row">
-                                <label for="inputCity" class="col-md-2 col-sm-2 col-form-label lable-custom">المدينة
-                                </label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputCity" placeholder="المدينة ">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -206,49 +240,14 @@
                             </div>
 
                             <div class="form-group mb-1 row">
-                                <label for="inputDate" class="col-md-2 col-sm-2 col-form-label lable-custom">تاريخ بدأ
-                                    الكفالة
+                                <label for="FormControlFile1" class="col-md-2 col-sm-2 col-form-label lable-custom">السيرة الذاتية
                                 </label>
                                 <div class="col-sm-10">
-                                    <input type="date" class="form-control" id="inputDate"
-                                        placeholder="تاريخ بدأ الكفالة  ">
-                                </div>
-                            </div>
-                            <div class="form-group mb-1 row">
-                                <label for="inputNumberOrphans"
-                                    class="col-md-2 col-sm-2 col-form-label lable-custom">العدد
-                                    المطلوب كفالته من الأيتام
-                                </label>
-                                <div class="col-sm-10">
-                                    <input type="number" class="form-control" id="inputNumberOrphans"
-                                        placeholder="العدد المطلوب كفالته من الأيتام  ">
-                                </div>
-                            </div>
-                            <div class="form-group mb-1 row">
-                                <label for="donationType" class="col-md-2 col-sm-2 col-form-label lable-custom">نوع
-                                    التبرع
-                                </label>
-                                <div class="col-sm-10">
-                                    <select class="form-select" name="donationType" id="donationType">
-                                        <option value="no-value" disabled selected>يرجي اختيار </option>
-                                        <option value="no-value">الخيار الآول </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group mb-1 row">
-                                <label for="sponsorshipeType" class="col-md-2 col-sm-2 col-form-label lable-custom">نوع
-                                    الكفالة
-                                </label>
-                                <div class="col-sm-10">
-                                    <select class="form-select" name="sponsorshipeType" id="sponsorshipeType">
-                                        <option value="no-value" disabled selected>يرجي اختيار </option>
-                                        <option value="no-value">الخيار الآول </option>
-                                    </select>
+                                    <input type="file" class="form-control-file" id="FormControlFile1">
                                 </div>
                             </div>
                         </div>
                     </fieldset>
-
 
                     <div class="form-group row">
                         <button class="btn secondary-btn " name="submit" type="submit">
@@ -265,6 +264,7 @@
         </section>
 
     </main><!-- End #main -->
+
 
 
     <!-- ======= Footer ======= -->
