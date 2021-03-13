@@ -170,14 +170,13 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
-
 /**
 *Donation Button
 */
 .donation-btn {
   background: #946848;
-  color: #fff;
-  border-radius: 15px;
+  color: #ffffff;
+  border-radius: 5px;
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
@@ -187,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .Donation-btn:hover {
   background: #422c1b;
-  color: #fff;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -196,6 +195,88 @@ h1, h2, h3, h4, h5, h6 {
     padding: 6px 15px;
   }
 }
+
+
+
+   /* Button 2 */
+
+   .btn-2 {
+    background: #20409a;
+    color: #fff;
+  }
+
+  .btn-2:hover {
+    background: #ddad26;
+    color: #fff;
+  }
+
+  .btn-2:active {
+    background: #20409a;
+    color: #fff;
+    top: 2px;
+  }
+
+  .btn-2:before {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+      /* Button 3 */
+      .btn-3 {
+    background: #1fb369;
+    color: #fff;
+  }
+
+  .btn-3:hover {
+    background: #ddad26;
+    color: #fff;
+  }
+
+  .btn-3:active {
+    background: #1fb369;
+    color: #fff;
+    top: 2px;
+  }
+
+  .btn-3:before {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+   /* Button 4 */
+   .btn-4 {
+    background: #d0302f;
+    color: #fff;
+  }
+
+  .btn-4:hover {
+    background: #ddad26;
+    color: #fff;
+  }
+
+  .btn-4:active {
+    background: #d0302f;
+    color: #fff;
+    top: 2px;
+  }
+
+  .btn-4:before {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
 /**
 *Secondary Button
 */
