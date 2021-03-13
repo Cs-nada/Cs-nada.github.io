@@ -1741,6 +1741,7 @@ font-size: 12px;
 .slider {
   width: 80%;
   margin: 100px auto;
+  background-color: #18d26e;
 }
 
 .slick-slide {
