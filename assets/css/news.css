@@ -1,0 +1,65 @@
+ /* News 
+---------------------*/
+.news-grid {
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    border-radius: 5px;
+    overflow: hidden;
+    background: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .news-grid .news-img {
+    position: relative;
+  }
+
+  .news-grid .news-img .date {
+    position: absolute;
+    background: #b7ac6e;
+    color: #ffffff;
+    padding: 8px 15px;
+    left: 10px;
+    top: 10px;
+    border-radius: 4px;
+  }
+
+  .news-grid .news-img .date span {
+    font-size: 22px;
+    display: block;
+    line-height: 22px;
+    font-weight: 700;
+  }
+
+  .news-grid .news-img .date label {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .news-grid .news-info {
+    padding: 20px;
+  }
+
+  .news-grid .news-info h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+
+  .news-grid .news-info h5 a {
+    color: #3e5623;
+  }
+
+  .news-grid .news-info p {
+    margin: 0;
+    color: #000;
+  }
+
+  .news-grid .news-info .btn-bar {
+    margin-top: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+  }
