@@ -2019,6 +2019,68 @@ opacity: 1;
   font-size: 13px;
 }
 /*--------------------------------------------------------------
+# contact 
+--------------------------------------------------------------*/
+.info-soical {
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
+  padding: 20px 0 30px 0;
+}
+
+.info-soical h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.social-icon .fab {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px !important;
+  line-height: 1;
+  font-size: 14px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #fff;
+  background: none
+}
+
+.social-icon:hover .fab {
+  opacity: .5
+}
+
+.social-icon .fa-facebook-f {
+  background-color: #3b5998
+}
+
+.social-icon .fa-snapchat-ghost {
+  background-color: #e4de46;
+}
+
+.social-icon .fa-twitter {
+  background-color: #00aced
+}
+
+.social-icon .fa-whatsapp {
+  background-color: #54BFA6;
+}
+
+.social-icon .fa-youtube {
+  background-color: #bb0000
+}
+
+.social-icon .fa-instagram {
+  background-color: #833AB4;
+}
+
+.btn-round {
+  border-radius: 4px !important
+}
+/*--------------------------------------------------------------
 # price block
 --------------------------------------------------------------*/
 .price-sec-wrap {
