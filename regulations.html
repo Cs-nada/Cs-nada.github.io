@@ -34,123 +34,106 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css"
     integrity="sha384-4dNpRvNX0c/TdYEbYup8qbjvjaMrgUPh+g4I03CnNtANuv+VAvPL6LqdwzZKV38G" crossorigin="anonymous">
 
-  <!-- Template Main CSS File -->
+  <!--  Main CSS File -->
   <link href="assets/css/styless.css" rel="stylesheet">
 
 </head>
 
 <body>
-
   <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid ">
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="navbar-brand p-3 logo me-auto"><img src="assets/img/Logo.png" alt=""></a>
+      <h1 class="logo me-auto p-2 "><a style="color: #3e5623;" href="index.html">جمعية البر بوادي نخلة اليمانية</a></h1>
 
-                <a class="navbar-brand logo p-3 " href="index.html"><img src="assets/img/Logo.png" alt=" "></a>
-                <h3 class="logo ml-1 "><a style="color: #3e5623;" href="index.html">جمعية البر بوادي نخلة
-                        اليمانية</a></h3>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light order-last order-lg-0">
+        <ul class="justify-content-center mx-auto">
+          <li><a class="nav-link " href="index.html">الرئيسية</a></li>
+          <li class="dropdown ">
+            <a href="#"><span>عن الجمعية</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="AboutHistory.html">النشأة والتأسيس</a></li>
+              <li><a class="dropdown-item" href="missionVision.html">الرؤية والرسالة </a></li>
+              <li> <a class="dropdown-item" href="objective.html">أهداف الجمعية</a></li>
+              <li><a class="dropdown-item" href="license.html">ترخيص الجمعية</a></li>
+              <li><a class="dropdown-item" href="wordOfDirector.html">كلمة رئيس مجلس الادارة</a></li>
+              <li><a class="dropdown-item" href="membersOfGeneralAssembly.html">أعضاء مجلس الجمعيةالعمومية</a></li>
+              <li><a class="dropdown-item" href="membersOfBoard.html">أعضاء مجلس الادارة</a></li>
+              <li><a class="dropdown-item" href="staff.html">منسوبي الجمعية</a></li>
+              <li><a class="dropdown-item" href="strategicPlan.html">الخطة الاستراتيجية</a></li>
+              <li><a class="dropdown-item" href="operationalPlan.html">الخطة التشغيلية</a></li>
+              <li><a class="dropdown-item" href="organizationalStructure.html">الهيكل التنظيمي</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#"><span>خدماتنا</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="membership.html">عضوية الجمعية العمومية</a></li>
+              <li> <a class="dropdown-item" href="dataPrivacy.html">خصوصية البيانات </a></li>
+              <li> <a class="dropdown-item" href="satisfaction.html">قياس الرضا</a></li>
+              <li> <a class="dropdown-item" href="case.html">دلنا على متععف</a></li>
+              <li><a class="dropdown-item" href="requestVisit.html">نموذج طلب زيارة</a></li>
+              <li> <a class="dropdown-item" href="recruitment.html">التوظيف</a></li>
+              <li><a class="dropdown-item" href="orphanSponsorship.html">نموذج كفالة يتيم</a></li>
+              <li><a class="dropdown-item" href="volunteer.html">تطوع معنا</a></li>
+            </ul>
+          </li>
 
-                <ul class="navbar-nav d-flex justify-content-center mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="#">الرئيسية</a>
-                    </li>
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">عن الجمعية</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="AboutHistory.html">النشأة والتأسيس</a>
-                            <a class="dropdown-item" href="missionVision.html">الرؤية والرسالة </a>
-                            <a class="dropdown-item" href="objective.html">أهداف الجمعية</a>
-                            <a class="dropdown-item" href="license.html">ترخيص الجمعية</a>
-                            <a class="dropdown-item" href="wordOfDirector.html">كلمة رئيس مجلس الادارة</a>
-                            <a class="dropdown-item" href="membersOfGeneralAssembly.html">أعضاء مجلس الجمعية
-                                العمومية</a>
-                            <a class="dropdown-item" href="membersOfBoard.html">أعضاء مجلس الادارة</a>
-                            <a class="dropdown-item" href="staff.html">منسوبي الجمعية</a>
-                            <a class="dropdown-item" href="strategicPlan.html">الخطة الاستراتيجية</a>
-                            <a class="dropdown-item" href="operationalPlan.html">الخطة التشغيلية</a>
-                            <a class="dropdown-item" href="organizationalStructure.html">الهيكل التنظيمي</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">خدماتنا</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
-                            <a class="dropdown-item" href="membership.html">عضوية الجمعية العمومية</a>
-                            <a class="dropdown-item" href="dataPrivacy.html">خصوصية البيانات </a>
-                            <a class="dropdown-item" href="satisfaction.html">قياس الرضا</a>
-                            <a class="dropdown-item" href="case.html">دلنا على متععف</a>
-                            <a class="dropdown-item" href="requestVisit.html">نموذج طلب زيارة</a>
-                            <a class="dropdown-item" href="orphanSponsorship.html">نموذج كفالة يتيم</a>
-                            <a class="dropdown-item" href="recruitment.html">التوظيف</a>
-                            <a class="dropdown-item" href="volunteer.html">تطوع معنا</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">المركز الإعلامي</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                            <a class="dropdown-item" href="News.html">الاخبار</a>
-                            <a class="dropdown-item" href="gallary.html">البوم الصور </a>
-                            <a class="dropdown-item" href="reportList.html">تقارير والانجازات</a>
-                            <a class="dropdown-item" href="partners.html">شركاء النجاح</a>
-                            <a class="dropdown-item" href="testimonials.html">قالوا عنا</a>
-                            <a class="dropdown-item" href="videoGallary.html">مكتبة الفيديو</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">المشاريع والأنشطة</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
-                            <a class="dropdown-item" href="activityPage.html">الكفارات</a>
-                            <a class="dropdown-item" href="activityPage.html">كفالة يتيم </a>
-                            <a class="dropdown-item" href="activityPage.html">كفالة أرملة</a>
-                            <a class="dropdown-item" href="activityPage.html">ترميم منازل</a>
-                            <a class="dropdown-item" href="activityPage.html">الحقيبة المدرسية</a>
-                            <a class="dropdown-item" href="activityPage.html">تحجيج الفقراء</a>
-                            <a class="dropdown-item" href="activityPage.html">كسوة العيد</a>
-                            <a class="dropdown-item" href="activityPage.html">تفريج كربة</a>
-                            <a class="dropdown-item" href="activityPage.html">السلة الغذائية</a>
-                            <a class="dropdown-item" href="activityPage.html">زكاة المال</a>
-                            <a class="dropdown-item" href="activityPage.html">سقيا الماء</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" href="#" id="navbarDropdownMenuLink5"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">الحوكمة</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
-                            <a class="dropdown-item" href="regulations.html">النظام واللائحة الاساسية</a>
-                            <a class="dropdown-item" href="financial.html"> القوائم المالية </a>
-                            <a class="dropdown-item" href="policies.html">السياسات واللوائح</a>
-                            <a class="dropdown-item" href="dataOverall.html"> بيانات النموذج الشامل</a>
-                            <a class="dropdown-item" href="committees.html"> اللجان</a>
-                            <a class="dropdown-item" href="ethicalCharter.html">المثياق الاخلاقي</a>
-                            <a class="dropdown-item" href="executiveDirectorData.html"> بيانات المدير التنفيذي</a>
-                            <a class="dropdown-item" href="employeeData.html">بيانات الموظفين</a>
-                            <a class="dropdown-item" href="generalAssemblyMeetings.html">اجتماعات الجمعية
-                                العمومية</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactUs.html">اتصل بنا</a>
-                    </li>
-                </ul>
-                <a class="btn donation-btn  ml-5 p-3" type="button" role="button" href="bankAccounts.html">
-                    تبرع الآن
-                </a>
-                <a class="btn donation-btn btn  p-3" type="button" role="button" href=""
-                    style="background-color: darkgray; color:wheat;">
-                    نظام جاهز
-                </a>
-            </div>
-        </div>
-    </nav>
-</header><!-- End Header -->
+          <li class="dropdown">
+            <a href="#"><span>المركز الإعلامي</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="News.html">الاخبار</a></li>
+              <li><a class="dropdown-item" href="gallary.html">البوم الصور </a></li>
+              <li><a class="dropdown-item" href="reportList.html">تقارير والانجازات</a></li>
+              <li><a class="dropdown-item" href="partners.html">شركاء النجاح</a></li>
+              <li><a class="dropdown-item" href="testimonials.html">قالوا عنا</a></li>
+              <li><a class="dropdown-item" href="videoGallary.html">مكتبة الفيديو</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown ">
+            <a href="#"><span>المشاريع والأنشطة</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="activityPage.html">الكفارات</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">كفالة يتيم </a></li>
+              <li><a class="dropdown-item" href="activityPage.html">كفالة أرملة</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">ترميم منازل</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">الحقيبة المدرسية</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">تحجيج الفقراء</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">كسوة العيد</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">تفريج كربة</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">السلة الغذائية</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">زكاة المال</a></li>
+              <li><a class="dropdown-item" href="activityPage.html">سقيا الماء</a></li>
+            </ul>
+          </li>
+          <li class="dropdown ">
+            <a href="#"><span>الحوكمة</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="dropdown-item" href="regulations.html">النظام واللائحة الاساسية</a></li>
+              <li><a class="dropdown-item" href="financial.html"> القوائم المالية </a></li>
+              <li><a class="dropdown-item" href="policies.html">السياسات واللوائح</a></li>
+              <li><a class="dropdown-item" href="dataOverall.html"> بيانات النموذج الشامل</a></li>
+              <li><a class="dropdown-item" href="committees.html"> اللجان</a></li>
+              <li><a class="dropdown-item" href="ethicalCharter.html">المثياق الاخلاقي</a></li>
+              <li><a class="dropdown-item" href="executiveDirectorData.html"> بيانات المدير التنفيذي</a></li>
+              <li> <a class="dropdown-item" href="employeeData.html">بيانات الموظفين</a></li>
+              <li> <a class="dropdown-item" href="generalAssemblyMeetings.html">اجتماعات الجمعية
+                  العمومية</a></li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link " href="contactUs.html">اتصل بنا</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <div class="btn-group">
+        <a href="bankAccounts.html" class="btn donation-btn" style="margin-left: 6px;">تبرع الآن</a>
+        <a href="#" class="btn donation-btn" style="background-color: darkgray; color:wheat;" >نظام جاهز</a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
 
   <main id="main">
     <section id="featured-services" class="featured-services">
@@ -171,51 +154,39 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
+              <img src="assets/img/Logo.png" width="128px" width="128px">
               <h3>جمعية نخلة بوادي اليمانية</h3>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com/NaklaLINK" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/NaklaLINK" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/NaklaLINK" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCH2ZzgJqCiRhdAPpHqSJK3w" class="youtube"><i
+                    class="fab fa-youtube"></i></a>
+                <a href="https://www.snapchat.com/add/nakla66" class="snapchat"><i
+                    class="fab fa-snapchat-ghost"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>الروابط المهمة</h4>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>عن الجمعية</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">خدماتنا</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">عن الجمعية</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">السياسات واللوائح</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">الحسابات البنكية</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+              <li><i class="bx bx-chevron-right"></i> <a href="objective.html">أهداف الجمعية</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="missionVision.html">الرؤية والرسالة </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="bankAccounts.html">الحسابات البنكية</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="dataPrivacy.html">خصوصية البيانات </a></li>
             </ul>
           </div>
-          <!-- 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>خدماتنا</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="membership.html">عضوية الجمعية العمومية</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="recruitment.html">التوظيف</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="volunteer.html">تطوع معنا</a></li>
             </ul>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div> -->
-
+          </div>
         </div>
       </div>
     </div>
@@ -225,7 +196,7 @@
         &copy; جميع الحقوق محفوظة لصالح <strong><span>جمعية نخلة بوادي اليمانية</span></strong>.
       </div>
       <div class="credits">
-        تم التصميم من قبل <a href="https://bootstrapmade.com/">عون التقنية</a>
+        تم التصميم من قبل عون التقنية</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -247,9 +218,8 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <!-- Template Main JS File -->
+  <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
