@@ -12,7 +12,7 @@
       return document.querySelector(el)
     }
   }
-
+  w3.includeHTML();
   /**
    * Easy event listener function
    */
