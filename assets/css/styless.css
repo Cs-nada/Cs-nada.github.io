@@ -66,11 +66,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
-	font-size: 14px;
-	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+  color: #cccccc;
+  font-size: 18px;
+  margin: 18px;
 }
 
 ul, li {
@@ -703,7 +701,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #a2a098;
+  background: #3f5249;
   color: #fff;
   background-size: cover;
   padding: 60px 0;
@@ -794,7 +792,8 @@ font-size: 12px;
   line-height: 24px;
   display: block;
   font-weight: 700;
-  color: #555555;
+  color: #ffffff;
+  text-align: left;
   margin-left: 50px;
 }
 
@@ -908,8 +907,12 @@ font-size: 12px;
 }
 
 .services .description {
-  line-height: 24px;
-  font-size: 14px;
+  color: #8f9492;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: justify;
+
 }
 
 /*--------------------------------------------------------------
