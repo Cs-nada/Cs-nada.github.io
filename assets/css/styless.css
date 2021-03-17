@@ -39,20 +39,45 @@ body, html {
 	font-family: Poppins-Regular, sans-serif;
 }
 
-
+/*---------------------------------------------*/
 a {
-  color: #3e5623;
-  text-decoration: none;
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+	outline: none !important;
 }
 
 a:hover {
-  color: #3e5623;
-  text-decoration: none;
+	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: Poppins-Regular, sans-serif;
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
 }
+
+p {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
 .text-responsive {
   font-size: calc(100% + 1vw + 1vh);
 }
