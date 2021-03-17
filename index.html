@@ -41,7 +41,7 @@
 
 
 <body>
-  <html-include src="header.html"></html-include>
+  <div w3-include-html="header.html"></div>
 
   <!-- <div id="header-section"></div> -->
   <div class="py-2 text-left text-white"
@@ -459,6 +459,7 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
+  <div w3-include-html="footer.html"></div>
 
 <!-- <div id="footer-section"></div> -->
 <div id="preloader"></div>
@@ -479,6 +480,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/w3.js"></script>
+  <script>w3.includeHTML();</script>
   <!-- <script> 
     $(function(){
       $("#header-section").load("header.html");
