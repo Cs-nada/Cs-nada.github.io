@@ -43,7 +43,7 @@
  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   </head>
 
-<body>
+<body onload="myFunction()">
   <div w3-include-html="header.html"></div>
 
   <div class="py-2 text-left text-white"
@@ -469,8 +469,11 @@
   <!-- Vendor JS Files -->
   
   <script src="assets/js/w3.js"></script>
-  <!-- <script>w3.includeHTML();</script> -->
-
+  <script>
+    function myFunction() {
+  w3.includeHTML();
+    }
+  </script>
   <!-- Popper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
