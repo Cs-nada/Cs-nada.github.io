@@ -53,6 +53,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	font-family: Poppins-Regular, sans-serif;
 }
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
