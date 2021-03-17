@@ -218,10 +218,10 @@ ul, li {
   color: #ffffff;
   border-radius: 5px;
   padding: 8px 25px;
-  white-space: nowrap;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
+  margin-right: 12px;  
 }
 
 .donation-btn:hover {
