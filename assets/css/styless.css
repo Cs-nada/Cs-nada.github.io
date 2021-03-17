@@ -217,11 +217,11 @@ ul, li {
   background: #946848;
   color: #ffffff;
   border-radius: 5px;
-  padding: 8px 25px;
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  margin-right: 12px;  
+  width: 100px; 
+  max-width: 100%;
 }
 
 .donation-btn:hover {
