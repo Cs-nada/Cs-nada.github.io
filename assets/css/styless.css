@@ -215,13 +215,14 @@ ul, li {
 */
 .donation-btn {
   background: #946848;
+  background: #946848;
   color: #ffffff;
-  border-radius: 5px;
-  transition: 0.3s;
   font-size: 14px;
-  display: inline-block;
-  width: 100px; 
+  display: inline-table;
+  width: 100%;
   max-width: 100%;
+  padding: 14px 28px;
+  text-align: center;
 }
 
 .donation-btn:hover {
