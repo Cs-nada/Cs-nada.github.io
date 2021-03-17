@@ -774,10 +774,12 @@ font-size: 12px;
 }
 
 .counts .count-box {
-  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: -10px -5px 40px 0 rgb(0 0 0 / 10%);
   padding: 30px;
   width: 100%;
-  background-color: #fff;
+  background-color: #303c36;
+  border-radius: 12px;
+  color: white;
 }
 
 .counts .count-box i {
@@ -1179,7 +1181,15 @@ opacity: 1;
   color: #fff;
   background: none
 }
-
+.fa-money-bill-wave:before {
+  color: wheat;
+}
+.fa-users:before {
+  color: wheat;
+}
+.fa-stack-overflow:before {
+  color: wheat;
+}
 .social-icon:hover .fab {
   opacity: .5
 }
