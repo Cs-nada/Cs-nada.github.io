@@ -1,9 +1,3 @@
-/**
-* Template Name: Medicio - v4.0.1
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -183,7 +177,12 @@
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
-
+  /**
+   * Initiate gallery lightbox 
+   */
+  const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
+  });
 
   /**
    * Animation on scroll
